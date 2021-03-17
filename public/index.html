@@ -17,11 +17,9 @@
     <a href="#" class="navbar-brand my-navbar-a">Alex Brito</a>
     <ul class="navbar-nav w-100">
       <li class="nav-item active d-flex justify-content-center">
-        <div class="flex-row ">
-          <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#">Home</a>
-          <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#">About</a>
-          <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#">Projects</a>
-        </div>
+        <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#">Home</a>
+        <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#myAbout">About</a>
+        <a class="nav-item-active pr-5 mr-5 my-navbar-a" href="#myResume">Resume</a>
       </li>
     </ul>
   </nav>
@@ -35,7 +33,7 @@
       <img class="pl-5 ml-5" src="/public/img/Setup.jpg" alt="" style="height: 600px;">
     </div>
   </div>
-  <div class=" d-flex justify-content-center pt-5 mt-5">
+  <div class=" d-flex justify-content-center pt-5 mt-5" id="myAbout">
     <h1>Software Engineer, Web Developer, Fitness Enthusiast, Runner</h1>
   </div>
 
@@ -78,7 +76,7 @@
   </div>
 
   <!-- Resume -->
-  <div style="background-color: black; height: 700px;">
+  <div style="background-color: black; height: 700px;" id="myResume">
     <section>
       <div class="container pt-5">
         <div class="d-flex justify-content-center">
@@ -92,7 +90,7 @@
         <hr>
 
         <!-- Education -->
-        <div class="row d-flex">
+        <div class="row d-flex myEducation">
           <div class="col">
             <h1 class="">Wentworth Institute of Technology</h1>
             <h2>Computer Science, B.S.</h2>
@@ -117,7 +115,7 @@
                 <br>
                 • Mobile App Development (Android & iOS)
                 <br>
-                • Software engineering
+                • Software Engineering
                 <br>
                 • Computer Networking
                 <br>
@@ -188,12 +186,17 @@
       </div>
     </section>
 
-  </div>
-
-  <!-- End of Resume Section -->
-
-
+    <!-- Footer -->
+    <div pt-5 class="container d-flex align-items-end" style="height: 200px;">
+      <section class="d-flex align-items-end">
+        <p class="pt-5">@2020 Alex Brito</p>
+      </section>
+    </div>
 </body>
+
+</div>
+<!-- End of Resume Section -->
+
 <script src="/public/js/scripts.js"></script>
 
 </html>
