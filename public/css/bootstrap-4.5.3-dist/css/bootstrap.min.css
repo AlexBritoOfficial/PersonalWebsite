@@ -500,6 +500,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+@media (min-width: 568px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 540px;
+  }
+}
 @media (min-width: 576px) {
   .container,
   .container-sm {
@@ -513,6 +523,7 @@ pre code {
     max-width: 720px;
   }
 }
+
 @media (min-width: 992px) {
   .container,
   .container-lg,
@@ -530,6 +541,7 @@ pre code {
     max-width: 1140px;
   }
 }
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -6271,7 +6283,7 @@ button.bg-light:hover {
   background-color: #dae0e5 !important;
 }
 .bg-dark {
-  background-color: black !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 a.bg-dark:focus,
 a.bg-dark:hover,
@@ -9549,4 +9561,26 @@ hr {
 .consoleText {
   color: lawngreen;
   font-size: 18px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }
