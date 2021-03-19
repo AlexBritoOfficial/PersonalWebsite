@@ -501,6 +501,27 @@ pre code {
   margin-left: auto;
 }
 
+@media (max-width: 320px) {
+  .aboutAttributes {
+    font-size: 15px;
+    text-align: center;
+  }
+  .row {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .aboutAttributes {
+    font-size: 35px;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 568px) {
   .container,
   .container-lg,
@@ -9563,24 +9584,6 @@ hr {
   font-size: 18px;
 }
 
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
 }
