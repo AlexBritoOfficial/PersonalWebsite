@@ -28,17 +28,19 @@ function iPhoneX375WidthViewPortMediaQueryBreakPoint() {
   for (let x of pElementsInnerConsoleArray) {
     console.log(x.innerText);
     x.style.whiteSpace = "nowrap";
-
     if (x.innerText === `=> "Boston,Massachusetts"`) {
       x.innerHTML = `=> "Boston,<br>Massachusetts"`;
+      x.style.whiteSpace = "nowrap";
     }
 
     if (x.innerText === `=> "Wentworth Institute of Technology"`) {
       x.innerHTML = `=> "Wentworth Institute <br> of Technology"`;
+      x.style.whiteSpace = "nowrap";
     }
 
     if (x.innerText === `> alexBrito.expectedGraduation`) {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
+      x.style.whiteSpace = "nowrap";
     }
   }
   pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets"]`;
