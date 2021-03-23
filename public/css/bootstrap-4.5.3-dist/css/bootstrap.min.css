@@ -509,16 +509,42 @@ pre code {
   .row {
     padding-left: 0;
   }
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container.outerConsole {
+    width: 100%;
+  }
+
+  .consoleText {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .container.innerConsole {
+    padding: 0;
+  }
+  .container.outerConsole {
+    width: 100%;
+  }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
+  .navbar {
+    display: flex;
+    width: 100%;
+  }
+
   .aboutAttributes {
     font-size: 35px;
     text-align: center;
   }
-  .row {
-    display: flex;
-    justify-content: center;
+  h1 {
+    font-size: 2rem;
+  }
+    .container.outerConsole {
+    width: 100%;
   }
 }
 
@@ -542,6 +568,9 @@ pre code {
   .container-md,
   .container-sm {
     max-width: 720px;
+  }
+  h1 {
+    font-size: 5rem;
   }
 }
 
