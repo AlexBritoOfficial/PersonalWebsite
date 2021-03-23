@@ -546,6 +546,9 @@ pre code {
     .container.outerConsole {
     width: 100%;
   }
+   .container.innerConsole {
+    height: 100%;
+  }
 }
 
 @media (min-width: 568px) {
