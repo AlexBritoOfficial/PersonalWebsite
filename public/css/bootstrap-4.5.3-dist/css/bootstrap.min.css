@@ -543,10 +543,10 @@ pre code {
   h1 {
     font-size: 2rem;
   }
-    .container.outerConsole {
+  .container.outerConsole {
     width: 100%;
   }
-   .container.innerConsole {
+  .container.innerConsole {
     height: 100%;
   }
 }
@@ -9614,8 +9614,5 @@ hr {
 .consoleText {
   color: lawngreen;
   font-size: 18px;
-}
-
-.text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
+  white-space: nowrap;
 }
