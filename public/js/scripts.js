@@ -31,9 +31,9 @@ function iPhoneX375WidthViewPortMediaQueryBreakPoint() {
   for (let x of pElementsInnerConsoleArray) {
     console.log(x.innerText);
     x.style.whiteSpace = "nowrap";
-    // if (x.innerText === `=> "Boston,Massachusetts"`) {
-    //   x.innerHTML = `=> "Boston,<br>Massachusetts"`;
-    // }
+    if (x.innerText === `=> "Boston,Massachusetts"`) {
+      x.innerHTML = `=> "Boston, <br> Massachusetts"`;
+    }
 
     if (x.innerText === `=> "Wentworth Institute of Technology"`) {
       x.innerHTML = `=> "Wentworth Institute <br> of Technology"`;
