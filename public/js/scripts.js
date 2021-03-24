@@ -12,6 +12,9 @@ function fixWindowBasedOnMediaQuery(x) {
   if (x === 375) {
     iPhoneX375WidthViewPortMediaQueryBreakPoint();
   }
+  if (x === 414) {
+    iPhoneX375WidthViewPortMediaQueryBreakPoint();
+  }
 }
 
 function iPhoneX375WidthViewPortMediaQueryBreakPoint() {
