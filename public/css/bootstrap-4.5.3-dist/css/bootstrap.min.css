@@ -551,6 +551,9 @@ pre code {
     height: 100%;
   }
 
+  .educationH2 {
+    font-size: 42px;
+  }
   .education-my-school {
     font-size: 20px;
   }
@@ -572,6 +575,27 @@ pre code {
   }
 
   .education-relevant-courses {
+    font-size: 15px;
+  }
+  /* Experience */
+
+  .workExperience {
+    font-size: 42px;
+  }
+
+  .experience-job {
+    font-size: 20px;
+  }
+
+  .experience-job-position {
+    font-size: 15px;
+  }
+
+  .experience-job-location {
+    font-size: 15px;
+  }
+
+  .experience-job-duration {
     font-size: 15px;
   }
 }
@@ -607,6 +631,8 @@ pre code {
     white-space: nowrap;
   }
 
+  /* Education */
+
   .education-my-school {
     font-size: 1.75rem;
   }
@@ -623,6 +649,27 @@ pre code {
 
   .education-expected-graduation-date {
     font-size: 1.5rem;
+  }
+
+  /* Experience */
+  .experience-job {
+    font-size: 1.75rem;
+  }
+
+  .experience-job-position {
+    font-size: 1.5rem;
+  }
+
+  .experience-job-location {
+    font-size: 1.75rem;
+  }
+
+  .experience-job-duration {
+    font-size: 1.5rem;
+  }
+
+  .experience-job-span {
+    float: right !important;
   }
 }
 
