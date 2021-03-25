@@ -43,7 +43,7 @@ function iPhoneX375WidthViewPortMediaQueryBreakPoint() {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
     }
   }
-  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets"]`;
+  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> Algorithms]`;
 }
 
 getScreenSize();

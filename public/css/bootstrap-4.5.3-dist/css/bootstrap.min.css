@@ -530,6 +530,7 @@ pre code {
   }
 }
 
+/* IPhone X */
 @media (min-width: 375px) {
   .navbar {
     display: flex;
@@ -565,6 +566,14 @@ pre code {
   .education-city {
     font-size: 15px;
   }
+
+  .education-expected-graduation-date {
+    font-size: 15px;
+  }
+
+  .education-relevant-courses {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 568px) {
@@ -582,6 +591,8 @@ pre code {
     max-width: 540px;
   }
 }
+
+/* Desktop Devices */
 @media (min-width: 768px) {
   .container,
   .container-md,
@@ -592,8 +603,26 @@ pre code {
     font-size: 5rem;
   }
 
+  .consoleText {
+    white-space: nowrap;
+  }
+
+  .education-my-school {
+    font-size: 1.75rem;
+  }
+  .education-my-major {
+    font-size: 1.5rem;
+  }
   .education-city-span {
     float: right !important;
+  }
+
+  .education-city {
+    font-size: 1.75rem;
+  }
+
+  .education-expected-graduation-date {
+    font-size: 1.5rem;
   }
 }
 
