@@ -549,6 +549,22 @@ pre code {
   .container.innerConsole {
     height: 100%;
   }
+
+  .education-my-school {
+    font-size: 20px;
+  }
+
+  .education-my-major {
+    font-size: 15px;
+  }
+
+  .education-city-span {
+    float: none !important;
+  }
+
+  .education-city {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 568px) {
@@ -574,6 +590,10 @@ pre code {
   }
   h1 {
     font-size: 5rem;
+  }
+
+  .education-city-span {
+    float: right !important;
   }
 }
 
