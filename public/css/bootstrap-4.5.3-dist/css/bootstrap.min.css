@@ -783,11 +783,13 @@ pre code {
   }
 
   /* Experience */
-  .experience-job {
+  .experience-job,
+  .experience-job-state {
     font-size: 1.75rem;
   }
 
-  .experience-job-position {
+  .experience-job-position,
+  .experience-job-state-position {
     font-size: 1.5rem;
   }
 
