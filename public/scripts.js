@@ -334,7 +334,7 @@ function iPhoneX414WidthViewPortMediaQueryBreakPoint() {
       `• Collaborated confidently with managers and developers alike`
     ) {
       // Logic
-      x.innerHTML = `• Collaborated confidently with <span class="pl-3"> managers and developers alike </span>`;
+      x.innerHTML = `• Collaborated confidently with  managers and <span class="pl-3">developers alike</span>`;
     }
 
     if (
@@ -344,8 +344,7 @@ function iPhoneX414WidthViewPortMediaQueryBreakPoint() {
                 App</span>`
     ) {
       x.innerHTML = `• Participated in software development, <span class="pl-3"> quality engineering, and product </span> 
-     <span class="pl-3"> management teams to design and </span>
-         <span class="pl-3">implement features and capabilities </span> <span class="pl-3"> into the ASICS “Runkeeper” Android</span>
+     <span class="pl-3"> management teams to design and </span>implement <span class="pl-3"> features and capabilities into the ASICS </span><span class="pl-3">“Runkeeper” Android
                 App</span>`;
     }
   }
