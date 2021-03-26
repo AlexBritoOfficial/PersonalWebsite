@@ -528,6 +528,132 @@ pre code {
   .container.outerConsole {
     width: 100%;
   }
+
+  /* Education */
+  .educationH2 {
+    font-size: 42px;
+  }
+  .education-my-school {
+    font-size: 15px;
+  }
+
+  .education-my-major {
+    font-size: 15px;
+  }
+
+  .education-city-span {
+    float: none !important;
+  }
+
+  .education-city {
+    font-size: 15px;
+  }
+
+  .education-expected-graduation-date {
+    font-size: 15px;
+  }
+
+  .education-relevant-courses {
+    font-size: 15px;
+  }
+  /* Experience */
+
+  .workExperience {
+    font-size: 42px;
+  }
+
+  .experience-job,
+  .experience-job-state {
+    font-size: 20px;
+  }
+
+  .experience-job-position,
+  .experience-job-state-position {
+    font-size: 15px;
+  }
+
+  .experience-job-location,
+  .experience-job-state-location {
+    font-size: 15px;
+  }
+
+  .experience-job-duration,
+  .experience-job-state-duration {
+    font-size: 15px;
+  }
+}
+
+/* Samsung Galaxy S5 */
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .container.outerConsole {
+    width: 100%;
+  }
+
+  .container.innerConsole {
+    height: 100%;
+  }
+
+  .consoleText {
+    font-size: 13px;
+  }
+
+  /* Education **/
+  .educationH2 {
+    font-size: 42px;
+  }
+  .education-my-school {
+    font-size: 17px;
+  }
+
+  .education-my-major {
+    font-size: 15px;
+  }
+
+  .education-city-span {
+    float: none !important;
+  }
+
+  .education-city {
+    font-size: 15px;
+  }
+
+  .education-expected-graduation-date {
+    font-size: 15px;
+  }
+
+  .education-relevant-courses {
+    font-size: 15px;
+  }
+
+  /* Experience */
+
+  .workExperience {
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .experience-job,
+  .experience-job-state {
+    font-size: 20px;
+  }
+
+  .experience-job-position,
+  .experience-job-state-position {
+    font-size: 15px;
+  }
+
+  .experience-job-location,
+  .experience-job-state-location {
+    font-size: 15px;
+  }
+
+  .experience-job-duration,
+  .experience-job-state-duration {
+    font-size: 15px;
+  }
 }
 
 /* IPhone X */
@@ -551,6 +677,7 @@ pre code {
     height: 100%;
   }
 
+  /* Education */
   .educationH2 {
     font-size: 42px;
   }
