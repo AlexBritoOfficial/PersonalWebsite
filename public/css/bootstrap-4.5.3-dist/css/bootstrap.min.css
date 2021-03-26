@@ -583,19 +583,23 @@ pre code {
     font-size: 42px;
   }
 
-  .experience-job {
+  .experience-job,
+  .experience-job-state {
     font-size: 20px;
   }
 
-  .experience-job-position {
+  .experience-job-position,
+  .experience-job-state-position {
     font-size: 15px;
   }
 
-  .experience-job-location {
+  .experience-job-location,
+  .experience-job-state-location {
     font-size: 15px;
   }
 
-  .experience-job-duration {
+  .experience-job-duration,
+  .experience-job-state-duration {
     font-size: 15px;
   }
 }
@@ -668,7 +672,8 @@ pre code {
     font-size: 1.5rem;
   }
 
-  .experience-job-span {
+  .experience-job-span,
+  .experience-job-span-state {
     float: right !important;
   }
 }
