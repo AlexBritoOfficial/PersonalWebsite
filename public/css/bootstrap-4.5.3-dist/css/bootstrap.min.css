@@ -793,11 +793,13 @@ pre code {
     font-size: 1.5rem;
   }
 
-  .experience-job-location {
+  .experience-job-location,
+  .experience-job-state-location {
     font-size: 1.75rem;
   }
 
-  .experience-job-duration {
+  .experience-job-duration,
+  .experience-job-state-duration {
     font-size: 1.5rem;
   }
 
