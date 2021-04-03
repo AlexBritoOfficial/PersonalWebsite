@@ -53,7 +53,7 @@ function device360PXMediaQueryBreakPoint() {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
     }
   }
-  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> Algorithms]`;
+  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> "Algorithms"]`;
 
   // Work Experience ASICS Media Query Styling
 
@@ -137,7 +137,7 @@ function iPhoneX375WidthViewPortMediaQueryBreakPoint() {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
     }
   }
-  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> Algorithms]`;
+  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> "Algorithms"]`;
 
   // Work Experience Media Query Styling
 
@@ -221,7 +221,7 @@ function device411ViewPortMediaQueryBreakPoint() {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
     }
   }
-  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> Algorithms]`;
+  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> "Algorithms"]`;
 
   // Work Experience ASICS Media Query Styling
 
@@ -301,7 +301,7 @@ function iPhoneX414WidthViewPortMediaQueryBreakPoint() {
       x.innerHTML = `> alexBrito.<br>expectedGraduation`;
     }
   }
-  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> Algorithms]`;
+  pElementsInnerConsoleArray[7].innerHTML = `=> ["Running",<br> "Lifting",<br> "Coding",<br> "Music",<br> "Reading",<br>"Skateboarding",<br> "Sunsets",<br> "Algorithms"]`;
 
   // Work Experience ASICS Media Query Styling
 
